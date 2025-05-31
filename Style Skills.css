@@ -1,0 +1,105 @@
+.skills-section {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', serif;
+    border-radius: 10px;
+  }
+  
+  .skills-header {
+    text-align: center;
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  
+  .skill {
+    margin-bottom: 25px;
+  }
+  
+  .skill-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 25px;
+  }
+  
+  .skill-fill {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    font-weight: bold;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  /* اختصاص رنگ و درصد به هر مهارت */
+  .skill-fill.html {
+    width: 90%;
+    background-color: #e44d26;
+  }
+  
+  .skill-fill.css {
+    width: 85%;
+    background-color: #2965f1;
+  }
+  
+  .skill-fill.js {
+    width: 70%;
+    background-color: #f0db4f;
+    color: #000;
+  }
+  
+  .skill-fill.java {
+    width: 65%;
+    background-color: #b07219;
+  }
+  
+  .skill-fill.ps {
+    width: 80%;
+    background-color: #31a8ff;
+  }
+
+
+
+  .site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 20px;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+  }
+  
+  .site-footer p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .footer-icons {
+    margin-top: 10px;
+  }
+  
+  .footer-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 22px;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .footer-icons a:hover {
+    color: #00aced;
+    transform: scale(1.2);
+  }
